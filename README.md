@@ -6,15 +6,13 @@
 
 ![Tools](https://img.shields.io/badge/tools-35-6366f1?style=for-the-badge)
 [![Categories](https://img.shields.io/badge/categories-8-0ea5e9?style=for-the-badge)](#contents)
-[![Combined stars](https://img.shields.io/badge/combined_stars-20.0k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
+[![Combined stars](https://img.shields.io/badge/combined_stars-54.9k-f59e0b?style=for-the-badge&logo=github)](#-leaderboard)
 [![Stars](https://img.shields.io/github/stars/EdisonTKPcom/Awesome-Craft-Hardware?style=for-the-badge&color=22c55e)](https://github.com/EdisonTKPcom/Awesome-Craft-Hardware/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/EdisonTKPcom/Awesome-Craft-Hardware?style=for-the-badge&color=ec4899)](https://github.com/EdisonTKPcom/Awesome-Craft-Hardware/commits/main)
 
 </div>
 
 This list separates individual EDA tools from RTL-to-GDSII flows and from process design kits (PDKs). Official vendor FPGA and ASIC toolchains are proprietary and are not listed. Community bitstream projects are unofficial and incomplete on some families, and they do not grant a licence to vendor IP. Open PDKs still have foundry or shuttle-program terms. Check each project licence, including bundled components such as OpenSTA inside OpenROAD.
-
-Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft).
 
 ## Contents
 
@@ -27,6 +25,8 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft).
 - [RTL-to-GDSII flows](#rtl-to-gdsii-flows)
 - [Open PDKs](#open-pdks)
 - [Packaged distributions](#packaged-distributions)
+- [Related lists](#related-lists)
+- [Star history](#star-history)
 
 ## Dashboard
 
@@ -34,29 +34,31 @@ Related lists: [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft).
 <tr>
 <td align="center"><h2>35</h2>listed projects</td>
 <td align="center"><h2>8</h2>categories</td>
-<td align="center"><h2>20.0k</h2>combined GitHub stars</td>
-<td align="center"><h2>5.3k</h2>combined forks</td>
-<td align="center"><h2>10/11</h2>pushed in the last 30 days</td>
-<td align="center"><h2>5</h2>languages</td>
+<td align="center"><h2>54.9k</h2>combined GitHub stars</td>
+<td align="center"><h2>11.0k</h2>combined forks</td>
+<td align="center"><h2>26/32</h2>pushed in the last 30 days</td>
+<td align="center"><h2>8</h2>languages</td>
 </tr>
 </table>
 
-Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted repositories only. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates. Star badges next to GitHub entries update live.
+**FACT** (snapshot taken 2026-11-15, GitHub API): 35 listed projects, 32 of them on GitHub with public repository statistics. Official documentation and other non-GitHub entries are listed but have no stars, forks or push dates.
+
+**ESTIMATE**: 54.9k combined GitHub stars and 11.0k combined forks, summed from those API counts on the snapshot date. Live star badges next to GitHub entries may differ.
 
 ### 🏆 Leaderboard
 
 <table>
 <tr><th>Rank</th><th>Project</th><th>Kind</th><th align="right">Stars</th><th></th></tr>
 <tr><td align="center">🥇</td><td><b>Yosys</b></td><td>RTL synthesis</td><td align="right">4.9k</td><td><code>████████████████████</code></td></tr>
-<tr><td align="center">🥈</td><td><b>Verilator</b></td><td>HDL simulator</td><td align="right">4.1k</td><td><code>█████████████████</code></td></tr>
-<tr><td align="center">🥉</td><td><b>OpenROAD</b></td><td>Place and route</td><td align="right">3.3k</td><td><code>█████████████</code></td></tr>
-<tr><td align="center">4</td><td><b>OpenLane</b></td><td>ASIC flow</td><td align="right">2.0k</td><td><code>████████</code></td></tr>
-<tr><td align="center">5</td><td><b>nextpnr</b></td><td>Place and route</td><td align="right">1.8k</td><td><code>███████</code></td></tr>
-<tr><td align="center">6</td><td><b>Project IceStorm</b></td><td>Bitstream docs</td><td align="right">1.2k</td><td><code>█████</code></td></tr>
-<tr><td align="center">7</td><td><b>OpenROAD Flow Scripts</b></td><td>ASIC flow</td><td align="right">808</td><td><code>███</code></td></tr>
-<tr><td align="center">8</td><td><b>Magic</b></td><td>Layout editor</td><td align="right">729</td><td><code>███</code></td></tr>
-<tr><td align="center">9</td><td><b>SymbiYosys</b></td><td>Formal verification</td><td align="right">570</td><td><code>██</code></td></tr>
-<tr><td align="center">10</td><td><b>Project Trellis</b></td><td>Bitstream docs</td><td align="right">477</td><td><code>██</code></td></tr>
+<tr><td align="center">🥈</td><td><b>LiteX</b></td><td>FPGA SoC framework</td><td align="right">4.2k</td><td><code>█████████████████</code></td></tr>
+<tr><td align="center">🥉</td><td><b>Verilator</b></td><td>HDL simulator</td><td align="right">4.1k</td><td><code>█████████████████</code></td></tr>
+<tr><td align="center">4</td><td><b>SkyWater SKY130 PDK</b></td><td>PDK</td><td align="right">3.8k</td><td><code>████████████████</code></td></tr>
+<tr><td align="center">5</td><td><b>Icarus Verilog</b></td><td>Verilog simulator</td><td align="right">3.7k</td><td><code>███████████████</code></td></tr>
+<tr><td align="center">6</td><td><b>OpenROAD</b></td><td>Place and route</td><td align="right">3.3k</td><td><code>█████████████</code></td></tr>
+<tr><td align="center">7</td><td><b>LibrePCB</b></td><td>PCB editor</td><td align="right">3.1k</td><td><code>█████████████</code></td></tr>
+<tr><td align="center">8</td><td><b>GHDL</b></td><td>VHDL simulator</td><td align="right">2.9k</td><td><code>████████████</code></td></tr>
+<tr><td align="center">9</td><td><b>cocotb</b></td><td>Testbench framework</td><td align="right">2.6k</td><td><code>███████████</code></td></tr>
+<tr><td align="center">10</td><td><b>Amaranth</b></td><td>Python HDL</td><td align="right">2.1k</td><td><code>█████████</code></td></tr>
 </table>
 
 
@@ -65,19 +67,19 @@ Stats snapshot taken on 2026-11-15 from the GitHub API, for GitHub-hosted reposi
 ```mermaid
 pie showData
     title Combined GitHub stars by category
-    "PCB design" : 0
-    "Circuit simulation" : 0
-    "HDL, simulation and formal" : 9546
-    "FPGA implementation" : 3465
-    "ASIC and layout tools" : 4173
-    "RTL-to-GDSII flows" : 2815
-    "Open PDKs" : 0
-    "Packaged distributions" : 0
+    "PCB design" : 4387
+    "Circuit simulation" : 701
+    "HDL, simulation and formal" : 19842
+    "FPGA implementation" : 12677
+    "ASIC and layout tools" : 5573
+    "RTL-to-GDSII flows" : 4699
+    "Open PDKs" : 5229
+    "Packaged distributions" : 1822
 ```
 
 ### Licences
 
-![Custom](https://img.shields.io/badge/Custom-6-64748b?style=flat-square) ![ISC](https://img.shields.io/badge/ISC-3-64748b?style=flat-square) ![BSD-3-Clause](https://img.shields.io/badge/BSD--3--Clause-1-64748b?style=flat-square) ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-1-64748b?style=flat-square)
+![Custom](https://img.shields.io/badge/Custom-8-64748b?style=flat-square) ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-7-64748b?style=flat-square) ![ISC](https://img.shields.io/badge/ISC-6-64748b?style=flat-square) ![GPL-3.0](https://img.shields.io/badge/GPL--3.0-5-64748b?style=flat-square) ![GPL-2.0](https://img.shields.io/badge/GPL--2.0-3-64748b?style=flat-square) ![BSD-3-Clause](https://img.shields.io/badge/BSD--3--Clause-2-64748b?style=flat-square) ![BSD-2-Clause](https://img.shields.io/badge/BSD--2--Clause-1-64748b?style=flat-square)
 
 "Custom" or "None" means GitHub could not match a standard SPDX licence, often because of extra terms or an undeclared licence. Read the project licence before you use it commercially.
 
@@ -139,6 +141,28 @@ pie showData
 ## Packaged distributions
 
 - [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) - A binary distribution of YosysHQ and related digital-design tools. Bundled tools keep their individual licences. ![Stars](https://img.shields.io/github/stars/YosysHQ/oss-cad-suite-build?style=flat-square&label=%E2%AD%90)
+
+## Related lists
+
+Other lists in the Awesome Craft series:
+
+- [Awesome Craft](https://github.com/EdisonTKPcom/Awesome-Craft) - A curated list of open-source, self-hostable alternatives to popular SaaS tools.
+- [Awesome Craft Agents](https://github.com/EdisonTKPcom/Awesome-Craft-Agents) - A curated list of open-source chat apps, coding agents, self-hosted agent bots, workflow automation and image-generation UIs.
+- [Awesome Craft AI](https://github.com/EdisonTKPcom/Awesome-Craft-AI) - A curated list of open-source, self-hostable AI runtimes, servers, Hugging Face libraries and related infrastructure.
+- [Awesome Craft BSC](https://github.com/EdisonTKPcom/Awesome-Craft-BSC) - A curated list of verified open-source clients, SDKs, dev tools and protocol code for BNB Smart Chain and opBNB.
+- [Awesome Craft CUDA](https://github.com/EdisonTKPcom/Awesome-Craft-CUDA) - A curated list of open-source CUDA learning material, kernel libraries, tooling and portability projects.
+- [Awesome Craft DeepSeek](https://github.com/EdisonTKPcom/Awesome-Craft-DeepSeek) - A curated list of official DeepSeek repositories and open-source harnesses, serving engines, eval tools and fine-tuning stacks that work with DeepSeek models.
+- [Awesome Craft DevOps](https://github.com/EdisonTKPcom/Awesome-Craft-DevOps) - A curated list of open-source, self-hostable alternatives to popular DevOps and hosting SaaS tools.
+- [Awesome Craft Ethereum](https://github.com/EdisonTKPcom/Awesome-Craft-Ethereum) - A curated list of verified open-source Ethereum clients, SDKs, dev frameworks, wallets and security tools.
+- [Awesome Craft EV](https://github.com/EdisonTKPcom/Awesome-Craft-EV) - A curated list of open-source software and hardware for electric vehicles and charging.
+- [Awesome Craft Hyperliquid](https://github.com/EdisonTKPcom/Awesome-Craft-Hyperliquid) - A curated list of verified open-source SDKs, node tools, analytics and community libraries for the Hyperliquid ecosystem.
+- [Awesome Craft Malaysia](https://github.com/EdisonTKPcom/Awesome-Craft-Malaysia) - A curated list of open-source tools useful to Malaysian SMEs, with verified MyInvois support called out separately.
+- [Awesome Craft Solana](https://github.com/EdisonTKPcom/Awesome-Craft-Solana) - A curated list of verified open-source Solana clients, SDKs, frameworks, explorers and program libraries.
+- [Awesome Craft Web3](https://github.com/EdisonTKPcom/Awesome-Craft-Web3) - A curated list of open-source DEX protocol code, self-custody software, indexers, frameworks and Blockchain infrastructure.
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/chart?repos=EdisonTKPcom/Awesome-Craft-Hardware&amp;type=Date)](https://www.star-history.com/#EdisonTKPcom/Awesome-Craft-Hardware&Date)
 
 ## Contributing
 
